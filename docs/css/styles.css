@@ -1,0 +1,136 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	overflow-x: hidden;
+	box-sizing:border-box;
+	scroll-behavior: smooth;
+}
+
+/* The hero image */
+.hero-image 
+{
+	background-image: url("../img/suit.jpg");
+
+	/* Set a specific height */
+	height: 100%;
+
+	/* Position and center the image to scale nicely on all screens */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	clip-path: polygon(100% 0, 100% 100%, 85% 81%, 70% 100%, 50% 80%, 33% 100%, 15% 80%, 0 100%, 0 0);
+	
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+hr
+{
+	width: 70vw;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #6E4253;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 2em;
+	color: #008296;
+}
+
+h5
+{
+	color: #008296;
+}
+
+
+.main 
+{
+	margin: 50px;
+	color: #6E4253;
+	font-size: 125%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section-one, .section-two
+{
+	background-color: #F5F5F5;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100vw;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+.section-white
+{
+	padding-top: 50px;
+	padding-bottom: 25px;
+	width:100vw;
+}
+
+.card
+{
+	box-shadow: 10px 10px 5px grey;
+}
+
+/** Footer */
+footer
+{
+	text-align: center;
+	font-size: .75em;
+	margin-top: 25px;
+	margin-left:auto; 
+    margin-right:auto;
+	padding: 30px;
+	background-color: #018CAB;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #EFECF3;
+    width: 100vw;
+    margin-left: calc(-50vw + 50% - 8px);
+    position: relative;
+	padding-top: 10vw;
+	padding-bottom: 5vw;
+}
+
+footer a:link
+{
+	color: #EFECF3;
+}
+
+footer a:hover
+{
+	background-color: #EFECF3;
+	color: #138099;
+	padding: 5px;
+}
+
+/** End Footer */
+
+@media screen and (min-width: 600px) 
+{
+	h1
+	{
+		font-size: 2.5em;
+	}
+}
+
+@media only screen and (min-width: 1100px) 
+{
+	h1
+	{
+		font-size: 3em;
+	}
+}
+
+
