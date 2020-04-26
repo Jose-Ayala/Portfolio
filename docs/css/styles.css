@@ -54,14 +54,14 @@ h5
 	margin: 50px;
 	color: #6E4253;
 	font-size: 125%;
-	width: 80%;
+	width: 65vw;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.section-one, .section-two
+.section-one
 {
-	background-color: #F5F5F5;
+	background-color: #F8F8FF;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
